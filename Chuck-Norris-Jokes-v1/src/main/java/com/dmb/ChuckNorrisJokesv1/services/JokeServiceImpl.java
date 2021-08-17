@@ -2,7 +2,6 @@
 package com.dmb.ChuckNorrisJokesv1.services;
 
 import org.springframework.stereotype.Service;
-
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
 // @author Declan Blackman
