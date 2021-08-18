@@ -1,6 +1,7 @@
 
 package com.dmb.ChuckNorrisJokesv1.Controllers;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -9,6 +10,7 @@ import com.dmb.ChuckNorrisJokesv1.services.JokeService;
 // @author Declan Blackman
 // @date Aug 17, 2021
 
+@Controller
 public class JokeController {
 
 	private final JokeService jokeService;
